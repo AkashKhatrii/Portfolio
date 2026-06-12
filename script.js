@@ -959,18 +959,17 @@ function initSplitTextHero() {
   if (!el) return;
   if (el.dataset.split === "true") return;
 
-  // Capture the raw text once, preserve "Akash" as serif italic
+  // Capture the raw text once for the split-text reveal
   const raw = (el.textContent || "").trim();
   if (!raw) return;
 
   el.textContent = "";
   el.dataset.split = "true";
 
-  // First word styled as serif italic ("Akash"), rest stays sans
   const words = raw.split(/(\s+)/);
   let charIndex = 0;
 
-  words.forEach((word, wIdx) => {
+  words.forEach((word) => {
     if (/^\s+$/.test(word)) {
       const sp = document.createElement("span");
       sp.className = "char space";
@@ -981,7 +980,7 @@ function initSplitTextHero() {
       return;
     }
     const wrap = document.createElement("span");
-    wrap.className = wIdx === 0 ? "word serif" : "word";
+    wrap.className = "word serif";
     for (const ch of word) {
       const span = document.createElement("span");
       span.className = "char";
