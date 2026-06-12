@@ -1,0 +1,15 @@
+/* TEAM */
+Developer: Akash Khatri
+Site: https://akashkhatri.com
+Contact: akash.m.khatri [at] gmail.com
+From: Seattle, WA, USA
+
+/* THANKS */
+Built with vanilla HTML, CSS, and JavaScript.
+Fonts: Geist, Geist Mono, DM Sans (Google Fonts).
+Icons: Font Awesome, Devicon.
+
+/* SITE */
+Last update: 2026/06/11
+Standards: HTML5, CSS3, JSON-LD
+Components: GitHub REST API, EmailJS, Typed.js

@@ -1,0 +1,48 @@
+# https://akashkhatri.com — robots.txt
+# Allow all standard web crawlers
+User-agent: *
+Allow: /
+Disallow:
+
+# Explicitly allow AI / LLM crawlers so this portfolio is discoverable
+# by answer engines (Perplexity, Google AI Overviews, ChatGPT Search, Claude, etc.)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://akashkhatri.com/sitemap.xml

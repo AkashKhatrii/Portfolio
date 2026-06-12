@@ -1,95 +1,340 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-accent="mono">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Akash Khatri — SDE @ Amazon · Full-Stack & AI/ML Engineer</title>
+    <meta
+      name="description"
+      content="Akash Khatri is a Software Development Engineer at Amazon (Seattle, WA). MS Computer Science, University of Utah (2025, 4.0 GPA). First-author of 'Sort it Like You Mean It' (PVLDB 2025). He architects AWS data pipelines, ships LLM-powered systems (InsightSort, SmartBillAgent), and builds distributed systems in Java, Python, and Go."
+    />
+    <meta name="author" content="Akash Khatri" />
+    <meta
+      name="keywords"
+      content="Akash Khatri, Amazon SDE, software development engineer, full-stack developer, AI engineer, machine learning engineer, LLM engineer, AWS, Java, Python, Go, React, Node.js, University of Utah, PVLDB 2025, InsightSort, SmartBillAgent, Raft, distributed systems, portfolio"
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="theme-color" content="#0a0908" />
+    <link rel="canonical" href="https://akashkhatri.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Akash Khatri" />
+    <meta property="og:title" content="Akash Khatri — SDE @ Amazon · Full-Stack & AI/ML Engineer" />
+    <meta
+      property="og:description"
+      content="Software Development Engineer at Amazon (Seattle). MS CS, University of Utah (2025). PVLDB 2025 first-author. Building backend services, AWS data pipelines, and LLM-powered systems."
+    />
+    <meta property="og:url" content="https://akashkhatri.com/" />
+    <meta property="og:image" content="https://akashkhatri.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Akash Khatri — Full-Stack & AI/ML Engineer" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Akash Khatri — SDE @ Amazon · Full-Stack & AI/ML Engineer" />
+    <meta
+      name="twitter:description"
+      content="SDE @ Amazon · MS CS, University of Utah (2025) · PVLDB 2025 first-author. Backend, AWS data pipelines, and LLM systems."
+    />
+    <meta name="twitter:image" content="https://akashkhatri.com/og-image.jpg" />
+    <meta name="twitter:image:alt" content="Akash Khatri — Full-Stack & AI/ML Engineer" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Hint LLM/AI crawlers to the long-form site summary -->
+    <link rel="alternate" type="text/markdown" href="/llms.txt" title="LLM-friendly site summary" />
+
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-YCtc+t12NqM2Ix6Ba3Hw7wQ47rZtrNNsckO3Hb7mqVs2DdYHmQ90D7T4Pwpg+QKe0xYdWdy9OMQT8f6JZV2EAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@300..900&family=Geist+Mono:wght@400..700&family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
       rel="stylesheet"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 
     <link rel="stylesheet" href="style.css" />
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script defer src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script defer src="script.js"></script>
-    <title>Akash Khatri</title>
+
+    <!-- JSON-LD: Person (for SEO, AEO, and LLM crawlers) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Akash Khatri",
+      "url": "https://akashkhatri.com/",
+      "image": "https://akashkhatri.com/images/akash.jpg",
+      "jobTitle": "Software Development Engineer",
+      "description": "Software Development Engineer at Amazon, based in Seattle. MS Computer Science (University of Utah, 2025, 4.0 GPA). First-author of 'Sort it Like You Mean It' (PVLDB 2025). Builds backend services, AWS data pipelines, and LLM-powered systems.",
+      "email": "mailto:akash.m.khatri@gmail.com",
+      "telephone": "+1-801-403-3512",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Amazon",
+        "sameAs": "https://www.amazon.com/"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Seattle",
+        "addressRegion": "WA",
+        "addressCountry": "US"
+      },
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Utah",
+          "sameAs": "https://www.utah.edu/"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Mumbai",
+          "sameAs": "https://mu.ac.in/"
+        }
+      ],
+      "knowsAbout": [
+        "Backend Engineering",
+        "Distributed Systems",
+        "AWS Data Pipelines",
+        "ETL Workflows",
+        "AWS CDK",
+        "AWS Glue",
+        "AWS Lambda",
+        "AWS Fargate",
+        "Large Language Models (LLMs)",
+        "Retrieval-Augmented Generation (RAG)",
+        "Embeddings and Vector Search",
+        "HNSW Vector Indexes",
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing",
+        "Java",
+        "Python",
+        "Go",
+        "TypeScript",
+        "JavaScript",
+        "C++",
+        "SQL",
+        "React.js",
+        "Node.js",
+        "FastAPI",
+        "Flask",
+        "LangChain",
+        "OpenAI APIs",
+        "Anthropic Claude",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "Docker",
+        "CI/CD"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/akashkhatri/",
+        "https://github.com/AkashKhatrii",
+        "https://leetcode.com/akashkhatrii"
+      ]
+    }
+    </script>
+
+    <!-- JSON-LD: WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Akash Khatri — Portfolio",
+      "url": "https://akashkhatri.com/",
+      "author": { "@type": "Person", "name": "Akash Khatri" },
+      "inLanguage": "en-US"
+    }
+    </script>
+
+    <!-- JSON-LD: FAQPage (AEO — answer engines & AI search snippets) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who is Akash Khatri?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Akash Khatri is a Software Development Engineer at Amazon, based in Seattle, WA. He holds a Master's in Computer Science from the University of Utah (2025) with a 4.0 GPA and a Bachelor's in Computer Engineering from the University of Mumbai (2023). He is the first author of 'Sort it Like You Mean It' (PVLDB 2025)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does Akash Khatri work on?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At Amazon, Akash architects backend services and AWS data pipelines in Java, orchestrating production ETL workflows that link high-throughput product ordering pipelines to centralized commerce layers serving millions of users. Side projects include InsightSort (PVLDB 2025), SmartBillAgent (conversational billing platform on Anthropic Claude), and a Raft distributed consensus engine in Go."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Akash's technical stack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Languages: Java, Python, Go, JavaScript, TypeScript, C, SQL. Frameworks: React, Node.js, Express, FastAPI, Flask, Jinja2, LangChain. Cloud & data: AWS (CDK, Lambda, Fargate, Glue), CI/CD pipelines, ETL workflows. Databases: PostgreSQL, MySQL, MongoDB, Redis, vector databases (HNSW). ML/AI: PyTorch, TensorFlow, scikit-learn, LLMs (OpenAI GPT-4o, Anthropic Claude), embeddings, RAG."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Has Akash published academic research?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Akash Khatri is the first author of 'Sort it Like You Mean It: Discovering Semantically Interesting Attribute Augmentations to Sort Tables', published in the Proceedings of the VLDB Endowment (PVLDB), Vol. 18, No. 12, 2025. The paper introduces InsightSort, a GPT-4o-powered semantic analytical engine that maps context-aware ranking dimensions onto target datasets and uses a dual HNSW vector-index layer for sub-linear join-path discovery over large data lakes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I contact Akash Khatri?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Email: akash.m.khatri@gmail.com. Phone: +1 (801) 403-3512. LinkedIn: linkedin.com/in/akashkhatri. GitHub: github.com/AkashKhatrii."
+          }
+        }
+      ]
+    }
+    </script>
   </head>
 
   <body>
-    <div class="nav-bg scroll">
-      <div class="nav-wrapper">
-        <div class="logo"></div>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div class="noise-overlay" aria-hidden="true"></div>
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
 
-        <ul>
-          <li><a href="">About Me</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#internship">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <!-- <li><a href="#contact">Contact Me</a></li> -->
-        </ul>
-      </div>
+    <div class="nav-bg">
+      <header class="site-header">
+        <div class="nav-wrapper">
+          <a class="logo" href="#main" aria-label="Akash Khatri home">Akash<span class="logo-dot">.</span></a>
+
+          <nav class="nav-desktop" aria-label="Primary">
+            <ul>
+              <li><a href="#main">About</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#languages">Skills</a></li>
+              <li><a href="#internship">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#publications">Publications</a></li>
+              <li><a href="#github">GitHub</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+
+          <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </button>
+        </div>
+
+        <div id="mobile-menu" class="mobile-nav" hidden>
+          <ul>
+            <li><a href="#main">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Skills</a></li>
+            <li><a href="#internship">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#github">GitHub</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </header>
       <!-- <div class="portfolio"> -->
 
-      <section id="main">
+      <section id="main" class="hero-section scroll" data-reveal>
+        <canvas id="hero-canvas" class="hero-canvas" aria-hidden="true"></canvas>
+        <div class="hero-spotlight" id="hero-spotlight" aria-hidden="true"></div>
 
-        <div class="about-wrapper">
-          <div class='about-intro'>
-          <p id='name'>Hello, my name is</p>
-          <h1>Akash Khatri</h1>
-          <span id="element">Full Stack Developer</span>
-          <p>
-             I'm currently working on my Master's in Computer Science at the University of Utah, focusing on full-stack development and applied AI. I love building things that are both technically solid and actually useful to people. Currently, I'm leading development on a project called InsightSort; it's a system that uses large language models and embedding techniques to help people discover meaningful ways to explore their data. It's the kind of work that gets me excited because it sits right at the intersection of machine learning, language understanding, and everyday usability. I'm equally comfortable working with the MERN stack for web apps or setting up scalable systems with AWS and Docker. What drives me most is solving problems that connect data, systems, and people in ways that actually make sense in the real world. I think that's where technology truly shines.
+        <div class="about-wrapper surface-card hero-card">
+          <div class="about-intro">
+            <a class="status-pill" href="#internship" role="status" aria-live="polite">
+              <span class="status-dot" aria-hidden="true"></span>
+              <span>Currently <strong>SDE @ Amazon</strong> - Seattle, WA</span>
+              <i class="fas fa-arrow-right status-arrow" aria-hidden="true"></i>
+            </a>
 
-          </p>
-          <button onclick="window.open('https://www.linkedin.com/in/akashkhatri', '_blank')">Connect with me</button>
+            <p id="name" class="hero-kicker">Hi, I'm</p>
+            <h1 class="hero-title">Akash Khatri</h1>
+            <p class="hero-role"><span id="element">Software Development Engineer</span></p>
+
+            <p class="hero-lede">
+              <strong>Software Development Engineer at Amazon</strong> · <strong>MS Computer Science, University of Utah (2025)</strong>. I architect backend services and AWS data pipelines in Java, ship LLM-powered systems on the side, and first-authored <strong>“Sort it Like You Mean It”</strong> at <strong>PVLDB 2025</strong> — the paper behind InsightSort, a semantic analytical engine for data lakes.
+            </p>
+
+            <div class="hero-actions">
+              <!-- <a class="btn btn-primary magnetic" href="Akash_Khatri_Resume.pdf" download>
+                <i class="fas fa-file-arrow-down" aria-hidden="true"></i>
+                Download Résumé
+              </a> -->
+              <a class="btn btn-ghost magnetic" href="#projects">View work</a>
+              <a class="btn btn-ghost magnetic" href="https://www.linkedin.com/in/akashkhatri" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                LinkedIn
+              </a>
+            </div>
+
+            <dl class="stats-strip" aria-label="At a glance">
+              <div class="stat">
+                <dt>MS CS GPA</dt>
+                <dd><span class="stat-num">4.0</span><span class="stat-unit">/4.0</span></dd>
+              </div>
+              <div class="stat">
+                <dt>PVLDB 2025 paper</dt>
+                <dd><span class="stat-num">1</span><span class="stat-unit">st author</span></dd>
+              </div>
+              <div class="stat">
+                <dt>SmartBillAgent volume</dt>
+                <dd><span class="stat-num">$110K</span><span class="stat-unit">+</span></dd>
+              </div>
+              <div class="stat">
+                <dt>Students mentored</dt>
+                <dd><span class="stat-num">180</span><span class="stat-unit">+</span></dd>
+              </div>
+            </dl>
+          </div>
+
+          <aside class="about-contact-links" aria-label="Contact details">
+            <div class="contact-item">
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              <a href="mailto:akash.m.khatri@gmail.com">akash.m.khatri@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone" aria-hidden="true"></i>
+              <a href="tel:+18014033512">+1 (801) 403-3512</a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+              <a href="https://www.linkedin.com/in/akashkhatri/" target="_blank" rel="noopener noreferrer">linkedin.com/in/akashkhatri</a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github" aria-hidden="true"></i>
+              <a href="https://github.com/AkashKhatrii" target="_blank" rel="noopener noreferrer">github.com/AkashKhatrii</a>
+            </div>
+          </aside>
         </div>
-
-        <div class="about-contact-links">
-          <div class="contact-item">
-            <i class="fas fa-envelope"></i>
-            <a href="mailto:akash.m.khatri@gmail.com">akash.m.khatri@gmail.com</a>
-          </div>
-          <div class="contact-item">
-            <i class="fas fa-phone"></i>
-            <span>+1 (801)-403-3512</span>
-          </div>
-          <div class="contact-item">
-            <i class="fab fa-linkedin"></i>
-            <a href="https://www.linkedin.com/in/akashkhatri/">linkedin.com/in/akashkhatri/</a>
-          </div>
-          <div class="contact-item">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/akashkhatrii">AkashKhatrii</a>
-          </div>
-        </div>
-      </div>
         <!-- <div class="main-wrapper">
           <div class="photo">
              <img src="images/akash1.jpg" alt="person" /> 
@@ -129,16 +374,76 @@
       </section>
     </div>
 
-    <!-- <section id="about-me">
-      <p>Hi</p>
-    </section> -->
+    <!-- Always-on stack marquee (decorative) -->
+    <div class="marquee-strip" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-row">
+          <span>Java</span><span class="marquee-sep">/</span>
+          <span>Python</span><span class="marquee-sep">/</span>
+          <span>Go</span><span class="marquee-sep">/</span>
+          <span>TypeScript</span><span class="marquee-sep">/</span>
+          <span>React</span><span class="marquee-sep">/</span>
+          <span>Node.js</span><span class="marquee-sep">/</span>
+          <span>AWS</span><span class="marquee-sep">/</span>
+          <span>CDK</span><span class="marquee-sep">/</span>
+          <span>Glue</span><span class="marquee-sep">/</span>
+          <span>Lambda</span><span class="marquee-sep">/</span>
+          <span>Fargate</span><span class="marquee-sep">/</span>
+          <span>LLMs</span><span class="marquee-sep">/</span>
+          <span>LangChain</span><span class="marquee-sep">/</span>
+          <span>OpenAI</span><span class="marquee-sep">/</span>
+          <span>Anthropic</span><span class="marquee-sep">/</span>
+          <span>Embeddings</span><span class="marquee-sep">/</span>
+          <span>HNSW</span><span class="marquee-sep">/</span>
+          <span>RAG</span><span class="marquee-sep">/</span>
+          <span>PyTorch</span><span class="marquee-sep">/</span>
+          <span>TensorFlow</span><span class="marquee-sep">/</span>
+          <span>Postgres</span><span class="marquee-sep">/</span>
+          <span>MongoDB</span><span class="marquee-sep">/</span>
+          <span>Redis</span><span class="marquee-sep">/</span>
+          <span>DuckDB</span><span class="marquee-sep">/</span>
+          <span>Docker</span><span class="marquee-sep">/</span>
+          <span>FastAPI</span><span class="marquee-sep">/</span>
+          <span>Flask</span><span class="marquee-sep">/</span>
+        </div>
+        <div class="marquee-row" aria-hidden="true">
+          <span>Java</span><span class="marquee-sep">/</span>
+          <span>Python</span><span class="marquee-sep">/</span>
+          <span>Go</span><span class="marquee-sep">/</span>
+          <span>TypeScript</span><span class="marquee-sep">/</span>
+          <span>React</span><span class="marquee-sep">/</span>
+          <span>Node.js</span><span class="marquee-sep">/</span>
+          <span>AWS</span><span class="marquee-sep">/</span>
+          <span>CDK</span><span class="marquee-sep">/</span>
+          <span>Glue</span><span class="marquee-sep">/</span>
+          <span>Lambda</span><span class="marquee-sep">/</span>
+          <span>Fargate</span><span class="marquee-sep">/</span>
+          <span>LLMs</span><span class="marquee-sep">/</span>
+          <span>LangChain</span><span class="marquee-sep">/</span>
+          <span>OpenAI</span><span class="marquee-sep">/</span>
+          <span>Anthropic</span><span class="marquee-sep">/</span>
+          <span>Embeddings</span><span class="marquee-sep">/</span>
+          <span>HNSW</span><span class="marquee-sep">/</span>
+          <span>RAG</span><span class="marquee-sep">/</span>
+          <span>PyTorch</span><span class="marquee-sep">/</span>
+          <span>TensorFlow</span><span class="marquee-sep">/</span>
+          <span>Postgres</span><span class="marquee-sep">/</span>
+          <span>MongoDB</span><span class="marquee-sep">/</span>
+          <span>Redis</span><span class="marquee-sep">/</span>
+          <span>DuckDB</span><span class="marquee-sep">/</span>
+          <span>Docker</span><span class="marquee-sep">/</span>
+          <span>FastAPI</span><span class="marquee-sep">/</span>
+          <span>Flask</span><span class="marquee-sep">/</span>
+        </div>
+      </div>
+    </div>
 
     <!-- Education -->
     <div class="scroll">
-      <section id="education">
+      <section id="education" aria-labelledby="education-heading">
         <div class="education-wrapper">
           <div class="heading">
-          <h1><i class="fas fa-school"></i> <span>EDUCATION</span></h1>
+            <h2 id="education-heading"><i class="fas fa-school" aria-hidden="true"></i> <span>EDUCATION</span></h2>
           </div>
           <div class="education_info">
             <div class="ed">
@@ -213,31 +518,31 @@
 
       
 
-      <section id='languages'>
+      <section id='languages' aria-labelledby="languages-heading">
         <div class='languages-wrapper'>
             <div class="heading">
-                <h1><i class="fas fa-laptop-code"></i> <span>LANGUAGES & TOOLS</span></h1>
+                <h2 id="languages-heading"><i class="fas fa-laptop-code" aria-hidden="true"></i> <span>LANGUAGES &amp; TOOLS</span></h2>
             </div>
             <div class='languages-info'>
                 <div class='category'>
                     <h2 class="category-h2">Languages: </h2>
-                    <p>Python, JavaScript, TypeScript, Java, C#, C++, Golang, SQL</p>
+                    <p>Java, Python, Go, JavaScript, TypeScript, C, C++, SQL</p>
                 </div>
                 <div class='category'>
-                    <h2 class="category-h2">Full Stack Development: </h2>
-                    <p>HTML5, CSS3, React.js, Node.js, Express, Restful APIs, JQuery, Tailwind CSS</p>
+                    <h2 class="category-h2">Frameworks &amp; Libraries: </h2>
+                    <p>React, Node.js, Express, FastAPI, Flask, Jinja2, LangChain, Tailwind CSS, REST APIs</p>
                 </div>
                 <div class='category'>
-                    <h2 class="category-h2">Machine Learning: </h2>
-                    <p>NumPy, Pandas, Scikit-learn, Tensorflow, Keras, PyTorch</p>
+                    <h2 class="category-h2">Cloud &amp; Data Engineering: </h2>
+                    <p>AWS (CDK, Lambda, Fargate, Glue, S3), CI/CD pipelines, ETL workflows, data pipelines, Docker</p>
                 </div>
                 <div class='category'>
-                    <h2 class="category-h2">Databases: </h2>
-                    <p>MySQL, Oracle, MongoDB, PostgreSQL, GraphQL</p>
+                    <h2 class="category-h2">Databases &amp; Vector Search: </h2>
+                    <p>PostgreSQL, MySQL, MongoDB, Redis, DuckDB, vector databases (HNSW)</p>
                 </div>
                 <div class='category'>
-                    <h2 class="category-h2">Technologies & Tools: </h2>
-                    <p>Agile, AWS, Docker, CI/CD, Git, OAuth2, Postman, Jira, Figma, VS Code, Jupyter</p>
+                    <h2 class="category-h2">Machine Learning &amp; AI: </h2>
+                    <p>PyTorch, TensorFlow, Scikit-learn, LLMs, LangChain, OpenAI APIs, Anthropic Claude, NLP, embeddings, RAG</p>
                 </div>
             </div>
         </div>
@@ -247,67 +552,73 @@
 
     <!-- Work -->
     <div class="scroll">
-      <section id="internship">
+      <section id="internship" aria-labelledby="experience-heading">
         <div class="internship-wrapper">
           <div class="heading">
-            <h1><i class="fas fa-briefcase"></i> <span>WORK EXPERIENCE</span></h1>
+            <h2 id="experience-heading"><i class="fas fa-briefcase" aria-hidden="true"></i> <span>WORK EXPERIENCE</span></h2>
           </div>
           <div class="internship_info">
-            
+
             <div class="intern">
-              <h3>Research Assistant, <span>May 2024 - Present</span></h3>
-              <span class="position">University of Utah</span>
+              <h3>Software Development Engineer, <span>Jun 2025 - Present</span></h3>
+              <span class="position">Amazon &mdash; Seattle, WA</span>
               <br>
               <div class="info">
                 <ul>
-                  <li>Integrated OpenAI’s GPT APIs to develop advanced semantic sorting algorithms for datasets and data lakes across 5 key
-                    tasks, uncovering meaningful column relationships and improving sorting accuracy.</li>
-                  <li>Designed and optimized over 40 prompts using Levenshtein distance to evaluate sorting suggestions, expecting to reduce
-                    redundant suggestions by 50% and increasing sorting efficiency.</li>
-                    <li>Built a React.js and Flask-based interface for dataset uploads and sorting, with OpenAI-powered suggestions and highlighted
-                      sorting criteria for clearer insights.</li>
+                  <li>Architect and scale backend services and AWS data pipelines in Java, orchestrating production ETL workflows and linking high-throughput product ordering pipelines to centralized commerce layers serving millions of users daily.</li>
+                  <li>Coordinated the cross-functional release lifecycle of the <strong>Amazon Music for Artists</strong> application; unblocked multi-platform deployments across Web, Android, and iOS by resolving critical defects, directing QA testing in beta, and executing multi-channel MCMs.</li>
+                  <li>Owned operational resilience for core microservices by structuring multi-package beta pipelines and implementing self-triggering canary stacks with active rollback protection to safeguard production deployment runs.</li>
+                  <li>Executed data-layer migrations for high-volume AWS Glue pipelines handling <strong>TBs of historical data</strong>; designed validation tooling that eliminated duplicate backfill processing, dropping infrastructure overhead by <strong>$50K+ annually</strong>.</li>
+                  <li>Led the testing-infrastructure migration of <strong>20+ dependent packages</strong> to a runtime-managed framework; authored the technical design doc and formulated AWS CDK constructs to parameterize environment setups, compute scaling (Fargate / Lambda), and artifact generation.</li>
+                  <li>Orchestrated component-by-component rollout across isolated distributed applications by mapping Jira epics, mentoring and unblocking a junior SDE-1, and delivering the entire lifecycle <strong>2 weeks ahead of schedule</strong>.</li>
                 </ul>
               </div>
             </div>
 
             <div class="intern">
-              <h3>Graduate Teaching Assistant for Web Software Development & Adv Algorithms, <span>Jan 2024 - May 2024</span></h3>
-              <span class="position">University of Utah</span>
+              <h3>AI/ML Research Assistant, <span>Apr 2024 - May 2025</span></h3>
+              <span class="position">Kahlert School of Computing, University of Utah</span>
               <br>
               <div class="info">
                 <ul>
-                  <li>Facilitated teaching of Full Stack Development and Adv. Algorithms to 180+ students, focusing on React.js, FastAPI, SQLite,
-                    AWS for deployment, and complex algorithmic design; conducted office hours to resolve student queries and grade assignments.</li>
-                  <li>Mentored students on coding standards, testing strategies, algorithmic design, and deployment best practices, contributing to
-                    enhanced assignment quality and alignment with industry standards.</li>
+                  <li>First-authored <em><a href="#publications">&ldquo;Sort it Like You Mean It&rdquo;</a></em> (<strong>PVLDB 2025</strong>) and deployed <strong>InsightSort</strong>, a semantic analytical engine running on GPT-4o that maps 5&ndash;7 context-aware ranking dimensions onto target datasets, enriching tabular records with schemas completely missing from the host table.</li>
+                  <li>Engineered a dual <strong>384-dimensional HNSW vector-index layer</strong> over extensive data lakes (isolating column joinability and column semantics) that replaces O(N) brute-force column scans with sub-linear top-5 approximate-nearest-neighbor lookups to isolate valid join paths in milliseconds.</li>
+                  <li>Formulated a structural retrieval criteria fusing multi-modal utility scores with embedding-based uniqueness markers to filter out redundant relational keys, instantly synthesizing optimized <strong>DuckDB</strong> SQL query patches to skip manual data-profiling leaks.</li>
                 </ul>
               </div>
             </div>
-            
+
             <div class="intern">
-              <h3>Full Stack web Developer Intern, <span>June 2021 - July 2021</span></h3>
+              <h3>Graduate Teaching Assistant &mdash; Advanced Algorithms &amp; Full-Stack Systems, <span>Jan 2024 - May 2025</span></h3>
+              <span class="position">Kahlert School of Computing, University of Utah</span>
+              <br>
+              <div class="info">
+                <ul>
+                  <li>Conducted labs and evaluated core systems for <strong>Advanced Algorithms</strong> and <strong>Full-Stack Systems</strong> (React, FastAPI, AWS) for <strong>180+ graduate students</strong>; provided architectural mentorship on concurrent state software and scaling configurations.</li>
+                  <li>Mentored students on coding standards, testing strategies, algorithmic design, and deployment best practices &mdash; aligning assignment quality with industry expectations.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="intern">
+              <h3>Full Stack Web Developer Intern, <span>Jun 2021 - Jul 2021</span></h3>
               <span class="position">Exposys Data Labs</span>
               <br>
               <div class="info">
                 <ul>
-                  <li>Led development of Nostalgia, a memory-sharing platform built with JavaScript, Node.js, and MongoDB; implemented MVC
-                    architecture and optimized database queries to enhance scalability and performance.</li>
-                  <li>Boosted user engagement by introducing interactive features like commenting and memory-saving, significantly enhancing user
-                    interaction and content sharing.</li>
-                  <li>Developed over 9 RESTful APIs using Node.js, integrating Passport for authentication and Multer for file storage, ensuring
-                    secure data handling and efficient content management.</li>
+                  <li>Led development of <em>Nostalgia</em>, a memory-sharing platform built with JavaScript, Node.js, and MongoDB; implemented MVC architecture and optimized database queries to enhance scalability and performance.</li>
+                  <li>Boosted user engagement by introducing interactive features like commenting and memory-saving, significantly enhancing user interaction and content sharing.</li>
+                  <li>Developed 9+ RESTful APIs using Node.js, integrating Passport for authentication and Multer for file storage, ensuring secure data handling and efficient content management.</li>
                 </ul>
               </div>
             </div>
 
             <div class="intern">
-              <h3>Internet of Things Trainee, <span>June 2020 - July 2020</span></h3>
+              <h3>Internet of Things Trainee, <span>Jun 2020 - Jul 2020</span></h3>
               <span class="position">Enovate Skill</span>
               <br>
               <div class="info">
                 <ul>
-                  <!-- <li>Programmed Arduino and Raspberry Pi devices to create functional IoT prototypes.
-                  </li> -->
                   <li>Created and simulated IoT models using platforms like Tinkercad to test designs virtually.</li>
                   <li>Designed and built various Tinkercad simulators, including fire alarm systems and temperature sensors.</li>
                 </ul>
@@ -321,276 +632,398 @@
 
 
     <div class="scroll">
-      <section id="projects">
-        <!-- <div class='projects-outer-wrapper'> -->
+      <section id="projects" aria-labelledby="projects-heading">
         <div class='projects-outer-wrapper'>
           <div class="heading">
-            <h1><i class="fas fa-laptop-code"></i> <span>PROJECTS</span></h1>
+            <h2 id="projects-heading"><i class="fas fa-laptop-code" aria-hidden="true"></i> <span>PROJECTS</span></h2>
           </div>
-          
+
+          <!-- Featured: InsightSort (PVLDB 2025) -->
+          <article class="card card-featured" data-tilt="subtle" aria-labelledby="proj-insightsort">
+            <div class="card-content">
+              <div class="featured-grid">
+                <div class="featured-media">
+                  <div class="featured-placeholder" aria-hidden="true">
+                    <span class="featured-badge">PVLDB 2025</span>
+                    <div class="featured-monogram"><span class="mono-glyph">I</span><span class="mono-slash">/</span><span class="mono-glyph">S</span></div>
+                    <div class="featured-stack-strip">GPT-4o · HNSW · DuckDB · React · Flask</div>
+                  </div>
+                </div>
+                <div class="featured-body">
+                  <p class="featured-eyebrow"><i class="fas fa-star" aria-hidden="true"></i> Featured · First-author research</p>
+                  <h3 id="proj-insightsort" class="featured-title">InsightSort</h3>
+                  <p class="featured-desc">
+                    The system behind <em>&ldquo;Sort it Like You Mean It&rdquo;</em> (<strong>PVLDB Vol. 18, No. 12, 2025</strong>). A GPT-4o-powered semantic analytical engine that maps 5&ndash;7 context-aware ranking dimensions onto target datasets and enriches tabular records with schemas missing from the host table. A dual <strong>384-dim HNSW vector-index</strong> layer over data lakes replaces O(N) column scans with sub-linear top-5 ANN lookups, isolating valid join paths in milliseconds and emitting optimized <strong>DuckDB</strong> SQL patches.
+                  </p>
+                  <ul class="stack-chips" aria-label="Tech stack">
+                    <li>Python</li>
+                    <li>GPT-4o</li>
+                    <li>HNSW</li>
+                    <li>Embeddings</li>
+                    <li>DuckDB</li>
+                    <li>React.js</li>
+                    <li>Flask</li>
+                  </ul>
+                  <div class="card-cta">
+                    <a class="btn btn-ghost btn-sm magnetic" href="#publications">
+                      <i class="fas fa-book" aria-hidden="true"></i> Read the paper
+                    </a>
+                    <a class="btn btn-ghost btn-sm magnetic" href="https://github.com/AkashKhatrii" target="_blank" rel="noopener noreferrer">
+                      <i class="fab fa-github" aria-hidden="true"></i> GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
           <div class="projects-wrapper">
             <div id="column1">
-              
-              <div class="card" id="card-1">
+
+              <article class="card" data-tilt="subtle" aria-labelledby="proj-smartbill">
                 <div class="card-content">
-                  <!-- <img src="Akash_Oracle.png" alt="Project Image"> -->
+                  <div class="image-container is-placeholder" aria-hidden="true">
+                    <span class="placeholder-tag">LLM · Production</span>
+                    <div class="placeholder-monogram"><span>S</span><span class="mono-slash">/</span><span>B</span></div>
+                    <div class="placeholder-stack">Flask · Anthropic Claude · Jinja2 · Docker</div>
+                  </div>
+                  <p>
+                    <a id="proj-smartbill" href="https://github.com/AkashKhatrii" target="_blank" rel="noopener noreferrer">SmartBillAgent</a>
+                  </p>
+                  <div class="info">
+                    <p>Conversational billing &amp; document-automation platform. An asynchronous multi-threaded Flask backend processes Telegram conversational text orders, replacing pen-and-paper billing and scaling multi-store operations to <strong>60+ daily orders</strong> and <strong>$110K+ in gross transactional volume</strong>. A fault-tolerant semantic parser built on Claude maps vague English / Hindi / Sindhi inputs into schema-validated JSON, with bilingual rendering that bypasses worker literacy constraints. An on-the-fly bill compiler turns JSON arrays into paginated print-ready HTML and vector PDF receipts within seconds.</p>
+                    <ul class="stack-chips" aria-label="Tech stack">
+                      <li>Python</li>
+                      <li>Flask</li>
+                      <li>Anthropic Claude</li>
+                      <li>Jinja2</li>
+                      <li>Docker</li>
+                      <li>Telegram API</li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card" data-tilt="subtle" aria-labelledby="proj-collabhub">
+                <div class="card-content">
                   <div class="image-container">
-                    <img src="Collabhub.png" alt="Project Image">
+                    <img src="Collabhub.png" alt="CollabHub — full-stack collaboration platform showing project listings and real-time chat" loading="lazy" decoding="async" width="1200" height="750">
                     <div class="overlay">
-                      <a href="project_link" target="_blank"><i class="fas fa-eye"></i></a>
+                      <a href="https://github.com/AkashKhatrii/CollabHub" target="_blank" rel="noopener noreferrer" aria-label="View CollabHub source"><i class="fas fa-eye" aria-hidden="true"></i></a>
                     </div>
                   </div>
                   <p>
-                    <a
-                      href=""
-                      target="_blank"
-                      >CollabHub</a
-                    >
-
-                    <span id="teeter_demo"><a href="https://collab-hub-lac.vercel.app" target="_blank">Demo</a></span>
+                    <a id="proj-collabhub" href="https://github.com/AkashKhatrii/CollabHub" target="_blank" rel="noopener noreferrer">CollabHub</a>
+                    <span class="demo-link"><a href="https://collab-hub-lac.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a></span>
                   </p>
-
                   <div class="info">
-                    <!-- <ul>
-                      <li>Developed a full-stack web application using React.js, Node.js, and MongoDB, enabling students and developers to
-                        connect for mentorship and project collaboration based on shared technologies and interests</li>
-                      <li>Integrated Firebase Realtime Database for seamless, real-time chat functionality, allowing users to initiate and
-                        maintain project-related discussions.</li>
-                      <li>Deployed the frontend on Vercel and backend on Railway, ensuring a scalable and efficient architecture while delivering
-                        a user-friendly interface for profile management, project showcasing, and skill discovery.</li>
-                    </ul> -->
-                    <p>A full-stack platform that connects students and developers based on shared technologies and interests, fostering mentorship and collaborative projects. Features include real-time chat and user-friendly profile management.</p>
-
+                    <p>A full-stack MERN platform that connects students and developers by shared technologies for mentorship and project collaboration. Real-time Firebase chat, profile management, project discovery. Frontend on Vercel, backend on Railway.</p>
+                    <ul class="stack-chips" aria-label="Tech stack">
+                      <li>React.js</li>
+                      <li>Node.js</li>
+                      <li>MongoDB</li>
+                      <li>Firebase</li>
+                      <li>Vercel</li>
+                    </ul>
                   </div>
                 </div>
-              </div>
-                
+              </article>
 
-              <div class="card" id="card-1">
+              <article class="card" data-tilt="subtle" aria-labelledby="proj-cnns">
                 <div class="card-content">
                   <div class="image-container">
-                    <img src="Urbanaid.png" alt="Project Image">
+                    <img src="CNNs.png" alt="CNNs for Text Classification — research result charts and f1-score comparisons" loading="lazy" decoding="async" width="1200" height="750">
                     <div class="overlay">
-                      <a href="https://github.com/AkashKhatrii/UrbanAid" target="_blank"><i class="fas fa-eye"></i></a>
+                      <a href="https://github.com/AkashKhatrii/CNNs_for_text_classification" target="_blank" rel="noopener noreferrer" aria-label="View CNNs for Text Classification source"><i class="fas fa-eye" aria-hidden="true"></i></a>
                     </div>
                   </div>
                   <p>
-                    <a
-                      href="https://github.com/AkashKhatrii/UrbanAid"
-                      target="_blank"
-                      >UrbanAid</a
-                    >
-
-                    <span id="teeter_demo"><a href="https://urbanaid.up.railway.app/" target="_blank">Demo</a></span>
+                    <a id="proj-cnns" href="https://github.com/AkashKhatrii/CNNs_for_text_classification" target="_blank" rel="noopener noreferrer">CNNs for Text Classification</a>
                   </p>
-
                   <div class="info">
-                    <!-- <ul>
-                      <li>Built a prototype web app using Node.js, EJS, and MongoDB to connect local service providers with users, boosting local business visibility.</li>
-                      <li>Utilized HTML, CSS, and JavaScript for the frontend to ensure a responsive and user-friendly interface.</li>
-                      <li>Improved user experience by implementing features for service selection, account creation, and appointment scheduling.</li>
-                    </ul> -->
-                    <p>An app designed to support local businesses by connecting service providers, such as plumbers and electricians, with users in need. Users can easily schedule appointments and manage services through a responsive interface.</p>
+                    <p>Adapted CNNs for sentence-level NLP classification on the SST dataset. Improved f1 from <strong>82.5 → 84</strong> with GloVe and <strong>80 → 84.4</strong> with fastText embeddings — an ~8% lift through fine-tuning and embedding experiments.</p>
+                    <ul class="stack-chips" aria-label="Tech stack">
+                      <li>PyTorch</li>
+                      <li>NLP</li>
+                      <li>GloVe</li>
+                      <li>fastText</li>
+                    </ul>
                   </div>
                 </div>
-              </div>
-            
-              <div class="card" id="card-3">
+              </article>
+
+              <article class="card" data-tilt="subtle" aria-labelledby="proj-urbanaid">
                 <div class="card-content">
                   <div class="image-container">
-                    <img src="Paraclone.png" alt="Project Image">
+                    <img src="Urbanaid.png" alt="UrbanAid — local services marketplace with appointment scheduling" loading="lazy" decoding="async" width="1200" height="750">
                     <div class="overlay">
-                      <a href="http://github.com/AkashKhatrii/ParaClone" target="_blank"><i class="fas fa-eye"></i></a>
+                      <a href="https://github.com/AkashKhatrii/UrbanAid" target="_blank" rel="noopener noreferrer" aria-label="View UrbanAid source"><i class="fas fa-eye" aria-hidden="true"></i></a>
                     </div>
                   </div>
                   <p>
-                    <a
-                      href="http://github.com/AkashKhatrii/ParaClone"
-                      target="_blank"
-                      >Paraclone
-                    </a>
+                    <a id="proj-urbanaid" href="https://github.com/AkashKhatrii/UrbanAid" target="_blank" rel="noopener noreferrer">UrbanAid</a>
+                    <span class="demo-link"><a href="https://urbanaid.up.railway.app/" target="_blank" rel="noopener noreferrer">Demo</a></span>
                   </p>
-
                   <div class="info">
-                    <!-- <ul>
-                      <li>Developed a Chrome extension utilizing Chrome’s Storage API to facilitate data saving during internet sessions,
-                        eliminating the necessity to copy information to external applications.</li>
-                    </ul> -->
-                    <p>A Chrome extension that enhances browsing productivity by enabling users to save and organize data during internet sessions directly within the browser, eliminating the need to copy information to other applications.</p>
+                    <p>Marketplace connecting local service providers (plumbers, electricians) with customers. Built with Node.js, EJS, and MongoDB; includes service selection, account creation, and appointment scheduling.</p>
+                    <ul class="stack-chips" aria-label="Tech stack">
+                      <li>Node.js</li>
+                      <li>EJS</li>
+                      <li>MongoDB</li>
+                      <li>Express</li>
+                    </ul>
                   </div>
                 </div>
-              </div>
+              </article>
 
-              <div class="card" id="card-3">
-                <div class="card-content">
-                  <div class="image-container">
-                    <img src="CNNs.png" alt="Project Image">
-                    <div class="overlay">
-                      <a href="https://github.com/AkashKhatrii/CNNs_for_text_classification" target="_blank"><i class="fas fa-eye"></i></a>
-                    </div>
-                  </div>
-                  <p>
-                    <a
-                      href="https://github.com/AkashKhatrii/CNNs_for_text_classification"
-                      target="_blank"
-                      >CNNs for Text Classification
-                    </a>
-                  </p>
-
-                  <div class="info">
-                    <!-- <ul>
-                      <li>Tailored Convolutional Neural Networks for sentence classification in NLP, resulting in an 8% increase in f1 scores by fine-tuning models.</li>
-                      <li>Improved f1 scores on the SST dataset by utilizing GloVe and fastText embeddings, achieving scores of 84 and 84.4, respectively, compared to 82.5 and 80 with static embeddings.</li>
-                      <li>Explored the efficacy of CNNs in textual data processing, contributing valuable insights to NLP research.</li>
-                    </ul> -->
-                    <p>A deep learning project using Convolutional Neural Networks to improve text classification accuracy. Experimented with various word embeddings to optimize performance on the SST dataset</p>
-                  </div>
-                </div>
-              </div>
-
-            <!-- <div class="card" id="card-2">
-              <div class="card-content">
-                <p>
-                  <a
-                    href="https://github.com/AkashKhatrii/socketio-chat"
-                    target="_blank"
-                    ><i class="fas fa-link"></i>Chat application built with React
-                    and socket.io.</a
-                  >
-                </p>
-              </div>
-            </div> -->
             </div>
 
-        
-
             <div id="column2">
-                <div class="card" id="card-4">
-                  <div class="card-content">
-                    <div class="image-container">
-                      <img src="RDD.png" alt="Project Image">
-                      <div class="overlay">
-                        <a href="https://github.com/AkashKhatrii/Road_Damage_Detection" target="_blank"><i class="fas fa-eye"></i></a>
-                      </div>
-                    </div>
-                    <p>
-                      <a
-                        href="https://github.com/AkashKhatrii/Road_Damage_Detection"
-                        >Road Damage Detection and Classification</a
-                      >
-                    </p>
 
-                    <div class="info">
-                      <!-- <ul>
-                        <li>A deep learning-based road damage detection and classification system employing Faster R-CNN,
-                          YOLOv5, and SSD models.
-                          </li>
-                        <li>Ensured model robustness through curation of a diverse, high-quality dataset encompassing various road damage
-                          types, lighting conditions, and environments sourced from four different countries.
-                          </li>
-                        <li>Designed a user-friendly web application, allowing users to upload road damage photos for real-time detection</li>
-                      </ul> -->
-                      <p>A deep learning-based system that classifies and detects road damages like cracks and potholes in real-time, using a custom-trained model deployed through a user-friendly web interface.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="card" id="card-3">
-                  <div class="card-content">
-                    <div class="image-container">
-                      <img src="Teeter.png" alt="Project Image">
-                      <div class="overlay">
-                        <a href="https://github.com/AkashKhatrii/react-chat-frontend" target="_blank"><i class="fas fa-eye"></i></a>
-                      </div>
-                    </div>
-                    <p>
-                      <a
-                        href="https://github.com/AkashKhatrii/react-chat-frontend"
-                        target="_blank"
-                        >Teeter
-                      </a>
-                      <span id="teeter_demo"><a href="https://teeter.netlify.app/" target="_blank">Demo</a></span>
-                    </p>
-
-                    <div class="info">
-                      <!-- <ul>
-                        <li>A chatting web app built with React.js and deployed on netlify.</li>
-                        <li id="teeter_link">Click <a
-                          href="https://github.com/AkashKhatrii/react-chat-frontend"
-                          target="_blank"
-                      
-                          ></i>here
-                        </a> to see the instructions to use the demo.</li>
-                      </ul> -->
-                      <p>A responsive chat app built with React.js and deployed on Netlify, offering real-time messaging and a sleek, intuitive user experience.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card" id="card-3">
-                  <div class="card-content">
-                    <div class="image-container">
-                      <img src="Quote.png" alt="Project Image">
-                      <div class="overlay">
-                        <a href="https://github.com/AkashKhatrii/random-quote-generator" target="_blank"><i class="fas fa-eye"></i></a>
-                      </div>
-                    </div>
-                    <p>
-                      <a
-                        href="https://github.com/AkashKhatrii/random-quote-generator"
-                        target="_blank"
-                        >Random Quote Generator
-                      </a>
-                      <span id="teeter_demo"><a href="https://random-quote-generator-gamma-teal.vercel.app/" target="_blank">Demo</a></span>
-                    </p>
-
-                    <div class="info">
-                      <!-- <ul>
-                        <li>Developed a Random Quote Generator using React.js, fetching quotes from a third-party API to dynamically display new quotes with each button click.</li>
-                        <li>mplemented responsive design and efficient state management using React hooks, ensuring a clean user interface and smooth user experience.</li>
-                      </ul> -->
-                      <p>An interactive app developed with React.js that fetches and displays random quotes from an API, with smooth transitions and responsive design for an engaging user experience.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card" id="card-3">
-                  <div class="card-content">
-                    <div class="image-container">
-                      <img src="bg.jpg" alt="Project Image">
-                      <div class="overlay">
-                        <a href="http://github.com/AkashKhatrii/ParaClone" target="_blank"><i class="fas fa-eye"></i></a>
-                      </div>
-                    </div>
-                    <p>
-                      <a
-                        href="http://github.com/AkashKhatrii/ParaClone"
-                        target="_blank"
-                        >Onestop
-                      </a>
-                    </p>
-  
-                    <div class="info">
-                      <!-- <ul>
-                        <li>Developed a full-stack e-commerce web application, specializing in clothing retail.</li>
-                        <li>Designed a cart feature to enable seamless item addition, management, and purchase.</li>
-                        <li>Integrated Stripe for payment processing, ensuring secure and reliable transaction</li>
-                      </ul> -->
-                      <p></p>A full-stack e-commerce application tailored for clothing, featuring a shopping cart, secure Stripe payment integration, and a user-friendly interface for seamless purchasing.
-                    </div>
-                  </div>
-                </div>
-              <!-- <div class="card" id="card-6">
+              <article class="card" data-tilt="subtle" aria-labelledby="proj-raft">
                 <div class="card-content">
+                  <div class="image-container is-placeholder" aria-hidden="true">
+                    <span class="placeholder-tag">Distributed Systems</span>
+                    <div class="placeholder-monogram"><span>R</span><span class="mono-slash">/</span><span>aft</span></div>
+                    <div class="placeholder-stack">Go · Concurrency · RPC · Consensus</div>
+                  </div>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-                    recusandae!
+                    <a id="proj-raft" href="https://github.com/AkashKhatrii" target="_blank" rel="noopener noreferrer">Raft Distributed Consensus Engine</a>
                   </p>
+                  <div class="info">
+                    <p>A production-spec Raft consensus module in Go featuring automated leader election, heartbeats, continuous log replication, and persistent state machines across isolated nodes. Validated through a testing harness that mimics dynamic network partitions and cascading node drops across <strong>10+ simulation clusters</strong>, asserting <strong>100% state-data correctness</strong> under intense split-brain scenarios.</p>
+                    <ul class="stack-chips" aria-label="Tech stack">
+                      <li>Go</li>
+                      <li>Distributed Systems</li>
+                      <li>Concurrency</li>
+                      <li>RPC</li>
+                    </ul>
+                  </div>
                 </div>
-              </div> -->
+              </article>
+
+              <article class="card" data-tilt="subtle" aria-labelledby="proj-rdd">
+                <div class="card-content">
+                  <div class="image-container">
+                    <img src="RDD.png" alt="Road Damage Detection — bounding boxes over potholes and cracks on road imagery" loading="lazy" decoding="async" width="1200" height="750">
+                    <div class="overlay">
+                      <a href="https://github.com/AkashKhatrii/Road_Damage_Detection" target="_blank" rel="noopener noreferrer" aria-label="View Road Damage Detection source"><i class="fas fa-eye" aria-hidden="true"></i></a>
+                    </div>
+                  </div>
+                  <p>
+                    <a id="proj-rdd" href="https://github.com/AkashKhatrii/Road_Damage_Detection" target="_blank" rel="noopener noreferrer">Road Damage Detection &amp; Classification</a>
+                  </p>
+                  <div class="info">
+                    <p>Real-time road-damage detection (cracks, potholes) using Faster R-CNN, YOLOv5, and SSD. Curated a multi-country dataset spanning four lighting/environment regimes for robustness; deployed via a web upload interface.</p>
+                    <ul class="stack-chips" aria-label="Tech stack">
+                      <li>PyTorch</li>
+                      <li>YOLOv5</li>
+                      <li>Faster R-CNN</li>
+                      <li>Computer Vision</li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card" data-tilt="subtle" aria-labelledby="proj-paraclone">
+                <div class="card-content">
+                  <div class="image-container">
+                    <img src="Paraclone.png" alt="Paraclone — Chrome extension popup for saving content during browsing sessions" loading="lazy" decoding="async" width="1200" height="750">
+                    <div class="overlay">
+                      <a href="https://github.com/AkashKhatrii/ParaClone" target="_blank" rel="noopener noreferrer" aria-label="View Paraclone source"><i class="fas fa-eye" aria-hidden="true"></i></a>
+                    </div>
+                  </div>
+                  <p>
+                    <a id="proj-paraclone" href="https://github.com/AkashKhatrii/ParaClone" target="_blank" rel="noopener noreferrer">Paraclone</a>
+                  </p>
+                  <div class="info">
+                    <p>Chrome extension that uses Chrome's Storage API to save and organize content during browsing — no copy/paste round-trips to other apps.</p>
+                    <ul class="stack-chips" aria-label="Tech stack">
+                      <li>Chrome Extension</li>
+                      <li>JavaScript</li>
+                      <li>Storage API</li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card" data-tilt="subtle" aria-labelledby="proj-teeter">
+                <div class="card-content">
+                  <div class="image-container">
+                    <img src="Teeter.png" alt="Teeter — React real-time chat application interface" loading="lazy" decoding="async" width="1200" height="750">
+                    <div class="overlay">
+                      <a href="https://github.com/AkashKhatrii/react-chat-frontend" target="_blank" rel="noopener noreferrer" aria-label="View Teeter source"><i class="fas fa-eye" aria-hidden="true"></i></a>
+                    </div>
+                  </div>
+                  <p>
+                    <a id="proj-teeter" href="https://github.com/AkashKhatrii/react-chat-frontend" target="_blank" rel="noopener noreferrer">Teeter</a>
+                    <span class="demo-link"><a href="https://teeter.netlify.app/" target="_blank" rel="noopener noreferrer">Demo</a></span>
+                  </p>
+                  <div class="info">
+                    <p>A responsive chat app built with React.js and deployed on Netlify, offering real-time messaging and a clean UI.</p>
+                    <ul class="stack-chips" aria-label="Tech stack">
+                      <li>React.js</li>
+                      <li>Socket.IO</li>
+                      <li>Netlify</li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+
             </div>
           </div>
 
-      </div>
+          <details class="more-projects">
+            <summary>
+              <span>Show more projects</span>
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </summary>
+            <div class="projects-wrapper more-projects-grid">
+              <article class="card" data-tilt="subtle" aria-labelledby="proj-quote">
+                <div class="card-content">
+                  <div class="image-container">
+                    <img src="Quote.png" alt="Random Quote Generator — React UI showing a quote with refresh control" loading="lazy" decoding="async" width="1200" height="750">
+                    <div class="overlay">
+                      <a href="https://github.com/AkashKhatrii/random-quote-generator" target="_blank" rel="noopener noreferrer" aria-label="View Random Quote Generator source"><i class="fas fa-eye" aria-hidden="true"></i></a>
+                    </div>
+                  </div>
+                  <p>
+                    <a id="proj-quote" href="https://github.com/AkashKhatrii/random-quote-generator" target="_blank" rel="noopener noreferrer">Random Quote Generator</a>
+                    <span class="demo-link"><a href="https://random-quote-generator-gamma-teal.vercel.app/" target="_blank" rel="noopener noreferrer">Demo</a></span>
+                  </p>
+                  <div class="info">
+                    <p>A small React.js app that fetches and displays random quotes from a third-party API.</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card" data-tilt="subtle" aria-labelledby="proj-onestop">
+                <div class="card-content">
+                  <div class="image-container">
+                    <img src="bg.jpg" alt="Onestop — e-commerce clothing storefront preview" loading="lazy" decoding="async" width="1200" height="750">
+                    <div class="overlay">
+                      <a href="https://github.com/AkashKhatrii" target="_blank" rel="noopener noreferrer" aria-label="View Onestop source"><i class="fas fa-eye" aria-hidden="true"></i></a>
+                    </div>
+                  </div>
+                  <p>
+                    <a id="proj-onestop" href="https://github.com/AkashKhatrii" target="_blank" rel="noopener noreferrer">Onestop</a>
+                  </p>
+                  <div class="info">
+                    <p>Full-stack e-commerce app for clothing retail with a shopping cart and Stripe payments.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </details>
+
+        </div>
+      </section>
+    </div>
+
+    <div class="scroll">
+      <section id="publications" aria-labelledby="publications-heading">
+        <div class="certifications-wrapper">
+          <div class="certifications-wrapper-item" style="flex: 1 1 100%;">
+            <div class="heading">
+              <h2 id="publications-heading"><i class="fas fa-book" aria-hidden="true"></i> <span>PUBLICATIONS</span></h2>
+            </div>
+            <div class="certification_info">
+              <article class="card" data-tilt="subtle" aria-labelledby="pub-insightsort" style="margin-top: 1.25rem;">
+                <div class="card-content">
+                  <p style="display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: baseline;">
+                    <a id="pub-insightsort" href="https://www.vldb.org/pvldb/" target="_blank" rel="noopener noreferrer">Sort it Like You Mean It: Discovering Semantically Interesting Attribute Augmentations to Sort Tables</a>
+                    <span class="demo-link" style="margin-left: 0;">PVLDB 2025</span>
+                  </p>
+                  <div class="info">
+                    <p><strong>Akash Khatri</strong>, et al. <em>Proceedings of the VLDB Endowment (PVLDB)</em>, Vol. 18, No. 12, 2025.</p>
+                    <p>Introduces <strong>InsightSort</strong>, a semantic analytical engine running on GPT-4o that maps 5&ndash;7 context-aware ranking dimensions onto target datasets and enriches tabular records with schemas missing from the host table. Engineers a dual 384-dimensional HNSW vector-index layer over data lakes (isolating column joinability and column semantics) to replace O(N) brute-force scans with sub-linear top-5 ANN lookups for join-path discovery in milliseconds &mdash; and synthesizes optimized DuckDB SQL query patches that skip manual data profiling.</p>
+                    <ul class="stack-chips" aria-label="Topics">
+                      <li>First author</li>
+                      <li>VLDB Endowment</li>
+                      <li>GPT-4o</li>
+                      <li>HNSW</li>
+                      <li>Vector search</li>
+                      <li>DuckDB</li>
+                      <li>Data lakes</li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- JSON-LD: ScholarlyArticle (PVLDB 2025) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ScholarlyArticle",
+      "headline": "Sort it Like You Mean It: Discovering Semantically Interesting Attribute Augmentations to Sort Tables",
+      "author": [
+        { "@type": "Person", "name": "Akash Khatri", "url": "https://akashkhatri.com/" }
+      ],
+      "datePublished": "2025",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": "18",
+        "issueNumber": "12",
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Proceedings of the VLDB Endowment",
+          "alternateName": "PVLDB",
+          "url": "https://www.vldb.org/pvldb/"
+        }
+      },
+      "publisher": { "@type": "Organization", "name": "VLDB Endowment" },
+      "about": [
+        "Large Language Models",
+        "GPT-4o",
+        "Vector Search",
+        "HNSW",
+        "DuckDB",
+        "Data Lakes",
+        "Semantic Sort"
+      ],
+      "url": "https://akashkhatri.com/#publications"
+    }
+    </script>
+
+    <div class="scroll">
+      <section id="github" aria-labelledby="github-heading">
+        <div class="github-section-wrapper">
+          <div class="heading">
+            <h2 id="github-heading"><i class="fab fa-github" aria-hidden="true"></i> <span>GITHUB</span></h2>
+          </div>
+          <p class="github-lead">
+            Public repositories and profile data loaded live from the
+            <a href="https://github.com/AkashKhatrii" target="_blank" rel="noopener noreferrer">GitHub API</a>
+            — explore code, stars, and recent pushes alongside the featured projects above.
+          </p>
+
+          <div class="github-profile-card" id="github-profile-card">
+            <p class="github-profile-loading" id="github-profile-loading">Loading profile…</p>
+            <div class="github-profile-inner" id="github-profile-inner" hidden></div>
+          </div>
+
+          <div class="repos-toolbar" id="repos-toolbar" hidden>
+            <span class="repos-count" id="repos-count"></span>
+            <div class="repos-filters" role="group" aria-label="Filter repositories">
+              <button type="button" class="repos-filter-btn active" data-filter="all">All</button>
+              <button type="button" class="repos-filter-btn" data-filter="source">Sources</button>
+              <button type="button" class="repos-filter-btn" data-filter="fork">Forks</button>
+            </div>
+          </div>
+
+          <div class="repos-grid" id="repos-grid" aria-busy="true">
+            <p class="repos-loading" id="repos-loading">Loading repositories…</p>
+          </div>
+          <div class="repos-more-wrap" id="repos-more-wrap" hidden>
+            <button type="button" class="btn btn-ghost magnetic" id="repos-more-btn" data-mode="expand">Show all</button>
+          </div>
+          <p class="github-note" id="github-note" hidden></p>
+        </div>
       </section>
     </div>
 
@@ -599,13 +1032,13 @@
         <div class="certifications-wrapper">
           <div class="certifications-wrapper-item">
             <div class="heading">
-              <h1><i class="fas fa-handshake"></i> <span>PARTICIPATIONS</span></h1>
+              <h2><i class="fas fa-handshake" aria-hidden="true"></i> <span>PARTICIPATIONS</span></h2>
             </div>
             <div class="certification_info">
               <ol>
                 <li>Participated in 4 intercollege hackathons and was top 10 in two of them.</li>
-                <li>Cleared level 1 of International Maths Olympiad
-                <li>State Level Cricket Player(Invited team)</li>
+                <li>Cleared level 1 of International Maths Olympiad</li>
+                <li>State Level Cricket Player (Invited team)</li>
                 <li> Runner up of Blind Code Competition (code with monitor screen off) held in College</li>
                 
                 <li>Worked with an NGO (Simran Seva Pratishthan, Nov 21 – June 22), for a period of 8 
@@ -618,7 +1051,7 @@
 
           <div class='certifications-wrapper-item'>
             <div class="heading">
-              <h1><i class="fas fa-certificate"></i> <span>CERTIFICATIONS</span></h1>
+              <h2><i class="fas fa-certificate" aria-hidden="true"></i> <span>CERTIFICATIONS</span></h2>
             </div>
             <div class="certification_info">
               <ol>
@@ -640,15 +1073,67 @@
     
 
     <div class="scroll">
-      <section id="contact">
+      <section id="faq" aria-labelledby="faq-heading">
+        <div class="faq-wrapper">
+          <div class="heading">
+            <h2 id="faq-heading"><i class="fas fa-circle-question" aria-hidden="true"></i> <span>FAQ</span></h2>
+          </div>
+          <p class="section-lede">Quick answers for recruiters, hiring managers, and AI assistants.</p>
+
+          <div class="faq-list">
+            <details class="faq-item" open>
+              <summary><span class="faq-q">Who is Akash Khatri?</span><i class="fas fa-plus faq-icon" aria-hidden="true"></i></summary>
+              <div class="faq-a">
+                <p>Akash Khatri is a <strong>Software Development Engineer at Amazon</strong>, based in Seattle, WA. He holds an MS in Computer Science from the University of Utah (2025) with a 4.0 GPA, and a Bachelor's in Computer Engineering from the University of Mumbai (2023) with a 9.64/10 GPA. He is the first author of <em>&ldquo;Sort it Like You Mean It&rdquo;</em> at <strong>PVLDB 2025</strong>.</p>
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary><span class="faq-q">What does Akash work on?</span><i class="fas fa-plus faq-icon" aria-hidden="true"></i></summary>
+              <div class="faq-a">
+                <p>At Amazon, Akash architects backend services and AWS data pipelines in Java &mdash; orchestrating production ETL workflows linking high-throughput product ordering pipelines to centralized commerce layers serving millions of users daily.</p>
+                <p>Outside of work he ships LLM-powered systems &mdash; <strong>InsightSort</strong> (PVLDB 2025, GPT-4o + HNSW), <strong>SmartBillAgent</strong> (Claude-powered billing platform processing $110K+ in transactions), and a <strong>Raft</strong> distributed-consensus engine in Go.</p>
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary><span class="faq-q">What is Akash's technical stack?</span><i class="fas fa-plus faq-icon" aria-hidden="true"></i></summary>
+              <div class="faq-a">
+                <p><strong>Languages:</strong> Java, Python, Go, JavaScript, TypeScript, C, SQL.<br>
+                <strong>Frameworks &amp; libraries:</strong> React, Node.js, Express, FastAPI, Flask, Jinja2, LangChain.<br>
+                <strong>Cloud &amp; data engineering:</strong> AWS (CDK, Lambda, Fargate, Glue, S3), CI/CD pipelines, ETL workflows, data pipelines.<br>
+                <strong>Databases &amp; vector search:</strong> PostgreSQL, MySQL, MongoDB, Redis, DuckDB, vector databases (HNSW).<br>
+                <strong>ML / AI:</strong> PyTorch, TensorFlow, scikit-learn, LLMs (GPT-4o, Anthropic Claude), embeddings, NLP, RAG.</p>
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary><span class="faq-q">Has Akash published academic research?</span><i class="fas fa-plus faq-icon" aria-hidden="true"></i></summary>
+              <div class="faq-a">
+                <p>Yes. Akash is the <strong>first author</strong> of <em>&ldquo;Sort it Like You Mean It: Discovering Semantically Interesting Attribute Augmentations to Sort Tables&rdquo;</em>, published in the <strong>Proceedings of the VLDB Endowment (PVLDB), Vol. 18, No. 12, 2025</strong>. See the <a href="#publications">Publications</a> section for details.</p>
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary><span class="faq-q">How do I contact Akash?</span><i class="fas fa-plus faq-icon" aria-hidden="true"></i></summary>
+              <div class="faq-a">
+                <p>Email <a href="mailto:akash.m.khatri@gmail.com">akash.m.khatri@gmail.com</a>, call <a href="tel:+18014033512">+1 (801) 403-3512</a>, or message him on <a href="https://www.linkedin.com/in/akashkhatri/" target="_blank" rel="noopener noreferrer">LinkedIn</a>. Code lives at <a href="https://github.com/AkashKhatrii" target="_blank" rel="noopener noreferrer">github.com/AkashKhatrii</a>.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="scroll">
+      <section id="contact" aria-labelledby="contact-section-heading">
         <div class='contact-wrapper'>
 
           <div class='heading'>
-            <h1 class="contact-heading">
-              <i class="fas fa-address-book"></i>
+            <h2 id="contact-section-heading" class="contact-heading">
+              <i class="fas fa-address-book" aria-hidden="true"></i>
               <span>CONTACT ME</span>
-            </h1>
-            
+            </h2>
           </div>
 
           <div class='form-map'>
@@ -673,7 +1158,6 @@
                   id="message"
                   name="message"
                   rows="7"
-                  cols="60"
                 ></textarea>
               </div>
   
@@ -685,21 +1169,21 @@
 
           <div class='contact-map'>
             <figure>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9182454759034!2d-111.8684682240797!3d40.763822834441555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f565ccc5c703%3A0x270e8db23e81c3b4!2s250%20900%20E%2C%20Salt%20Lake%20City%2C%20UT%2084102!5e0!3m2!1sen!2sus!4v1723831699206!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" loading="eager"></iframe>
+              <iframe src="https://maps.google.com/maps?q=Seattle%2C+WA&t=&z=11&ie=UTF8&iwloc=&output=embed" title="Seattle, WA" width="100%" height="100%" style="border:0;" loading="eager"></iframe>
             </figure>
 
           </div>
 
-          <div>
+        </div>
 
         </div>
 
-      </section> 
+      </section>
 
-      <section id='footer'>
+      <section id="footer">
         <div class="footer-wrapper">
           <div class="footer-name"><h3>Akash Khatri</h3></div>
-          <div class='footer-info'><p>Software Developer | Full Stack Developer | Python Developer | AI enthusiast | Sports</p></div>
+          <div class='footer-info'><p>SDE @ Amazon | Backend &amp; Distributed Systems | LLMs &amp; Applied AI | PVLDB 2025</p></div>
           <div class="footer-social-links">
             <div class="social-link">
               <a href="mailto:akash.m.khatri@gmail.com" target="_blank">
@@ -739,35 +1223,34 @@
           </div>
           <div class="footer-credits">Designed by <span>Akash Khatri</span></div>
         </div>
-        
       </section>
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-      var typed = new Typed("#element", {
-        strings: [
-          "Full Stack Developer",
-          "Software Engineer",
-        ],
-        typeSpeed: 60,
-      });
+    </div>
 
-      function checkScroll() {
-  const scrollElements = document.querySelectorAll('.scroll');
-  scrollElements.forEach((el) => {
-    const elementTop = el.getBoundingClientRect().top;
-    if (elementTop < window.innerHeight - 100) {
-      el.classList.add('scroll-in-view');
-    }
-  });
-}
+    <button type="button" class="palette-launch-fab" id="palette-fab" aria-haspopup="dialog" aria-controls="command-palette" title="Quick navigation (⌘K or Ctrl+K)">
+      <i class="fas fa-bolt" aria-hidden="true"></i>
+      <span class="palette-fab-keys"><kbd>⌘</kbd><kbd>K</kbd></span>
+    </button>
 
-// Initial check on page load
-window.addEventListener('load', checkScroll);
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 
-// Check on scroll
-window.addEventListener('scroll', checkScroll);
+    <div id="command-palette" class="command-palette" role="dialog" aria-modal="true" aria-labelledby="palette-title" hidden>
+      <div class="command-palette-backdrop" data-close-palette></div>
+      <div class="command-palette-panel">
+        <div class="command-palette-head">
+          <span class="palette-icon" aria-hidden="true"><i class="fas fa-layer-group"></i></span>
+          <span id="palette-title">Quick navigation</span>
+          <kbd class="palette-esc">Esc</kbd>
+        </div>
+        <label class="palette-search-wrap">
+          <span class="visually-hidden">Search commands</span>
+          <i class="fas fa-magnifying-glass palette-search-icon" aria-hidden="true"></i>
+          <input type="search" id="palette-input" class="palette-input" placeholder="Jump anywhere or try “spark”…" autocomplete="off" spellcheck="false" />
+        </label>
+        <ul id="palette-list" class="palette-list" role="listbox"></ul>
+        <p class="palette-foot">Pro tip: press <kbd>⌘</kbd><kbd>K</kbd> or <kbd>Ctrl</kbd><kbd>K</kbd> from anywhere</p>
+      </div>
+    </div>
 
-    </script>
   </body>
 </html>

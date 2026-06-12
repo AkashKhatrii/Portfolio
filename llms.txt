@@ -1,0 +1,28 @@
+# Akash Khatri
+
+> Software Development Engineer at Amazon (Seattle, WA). MS Computer Science, University of Utah (2025, 4.0 GPA). First-author of "Sort it Like You Mean It" (PVLDB 2025). Architects backend services, AWS data pipelines, and LLM-powered systems in Java, Python, and Go.
+
+## Contact
+
+- Email: akash.m.khatri@gmail.com
+- Phone: +1 (801) 403-3512
+- Location: Seattle, Washington, USA
+- LinkedIn: https://www.linkedin.com/in/akashkhatri/
+- GitHub: https://github.com/AkashKhatrii
+- LeetCode: https://leetcode.com/akashkhatrii
+
+## Site map
+
+- [About / Hero](https://akashkhatri.com/#main): Identity, current role (SDE @ Amazon), headline stats
+- [Education](https://akashkhatri.com/#education): MS CS, University of Utah (4.0/4.0); BE, University of Mumbai (9.64/10)
+- [Skills](https://akashkhatri.com/#languages): Languages, frameworks, cloud & data engineering, databases & vector search, ML/AI
+- [Experience](https://akashkhatri.com/#internship): Amazon SDE, AI/ML Research Assistant (Utah), Graduate TA (Utah), prior internships
+- [Projects](https://akashkhatri.com/#projects): InsightSort (featured / PVLDB 2025), SmartBillAgent, Raft Consensus Engine, CollabHub, CNNs for Text Classification, UrbanAid, Road Damage Detection, Paraclone, Teeter
+- [Publications](https://akashkhatri.com/#publications): "Sort it Like You Mean It" — PVLDB 2025, Vol. 18, No. 12
+- [GitHub](https://akashkhatri.com/#github): Live data from the GitHub REST API
+- [FAQ](https://akashkhatri.com/#faq): Common questions, optimized for AI search and answer engines
+- [Contact](https://akashkhatri.com/#contact): Form, email, phone, location
+
+## Long form
+
+- [Full long-form summary](https://akashkhatri.com/llms-full.txt)
